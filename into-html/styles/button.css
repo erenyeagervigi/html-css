@@ -1,0 +1,43 @@
+.sub {
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.5s;
+    padding: 10px;
+    vertical-align: top;
+
+}
+
+.sub:hover{
+    background-color: palevioletred;
+    opacity: 0.8;
+     
+}
+.sub:active{
+    background-color: pink;
+}
+
+
+.JOIN {
+     border-color: blue;
+    color: blue;
+    border-width: 1px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    padding: 10px;
+}
+.JOIN:hover{
+    background-color: blue;
+    color: white;
+}
+.JOIN:active{
+    opacity: 0.5;
+}
+ 

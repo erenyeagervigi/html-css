@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body style="
+    padding-bottom: 500px;
+">
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;
+        ">
+        <div style="background-color: yellow;">div 1</div>
+        <div style="background-color: pink;">div 2</div>
+    </div>
+    <div style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        ">
+        <div style="background-color: rgb(215, 124, 6);">div 1</div>
+        <div style="background-color: rgb(21, 166, 239);">div 2</div>
+        <div style="background-color: rgb(245, 62, 45);">div 2</div>
+    </div>
+    <div style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        column-gap: 30px;
+        row-gap: 30px;
+        ">
+        <div style="background-color: rgb(215, 124, 6); height: 200px;">1f</div>
+        <div style="background-color: rgb(21, 166, 239); height: 200px;">1f</div>
+        <div style="background-color: rgb(245, 62, 45); height: 200px;">1f</div>
+        <div style="background-color: rgb(21, 166, 239); height: 200px;">1f</div>
+        <div style="background-color: rgb(245, 62, 45); height: 200px;">1f</div>
+        <div style="background-color: rgb(215, 124, 6); height: 200px;">1f</div>
+
+    </div>
+</body>
+</html>
